@@ -3,16 +3,11 @@ import requests
 
 
 
-
-class Settings:
-    def __init__(self):
-        self.VERSION = "0.0.1"
-        self.title = "Monerochan Miner GUI"
-
 # Based on the documentation on https://xmrig.com/docs/miner/api/config
 # r = requests.get(f"http://{host}:{port}/{apiVer}/{endpoint}")
 class xmrAPI:
     def __init__(self,_host = '127.0.0.1',_port = '1010'):
+        self.VERSION = "0.0.1"
         self.host = _host
         self.port = _port
         self.apiVer = 2
