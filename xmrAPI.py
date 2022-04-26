@@ -1,9 +1,7 @@
 import requests
 
-# from monero.backends.offline import OfflineWallet, WalletIsOffline
 
-# Running xmrig with tor socks proxy
-# command = f"./xmrig -x 127.0.0.1:9050 -a rx/0 -o {onionHost}:{onionPort} -u {mineAddress}"
+
 
 
 class Settings:
